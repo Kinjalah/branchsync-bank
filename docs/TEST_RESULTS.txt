@@ -1,0 +1,74 @@
+PASS: Gateway starts three independent JVMs; Node 3 leads
+PASS: Bank portal HTML and security headers served
+PASS: Unauthenticated banking data denied
+PASS: Wrong password rejected
+PASS: Customer login uses HttpOnly SameSite cookie
+PASS: Customer sees only owned accounts
+PASS: Password hashes and internal commands are absent from HTTP projections
+PASS: CSRF-less mutation denied
+PASS: Cross-origin login denied
+PASS: Customer cannot access DCS console
+PASS: Teller cannot access DCS console
+PASS: Customer cannot approve their own request
+PASS: Teller cannot suspend customer access
+PASS: Customer transfer through follower succeeds
+PASS: Transfer debits sender and credits recipient
+PASS: Receipt reference persisted in transaction history
+PASS: Idempotent transfer does not debit twice
+PASS: Request ID cannot be reused with changed payload
+PASS: Customer cannot debit another customer account
+PASS: Invalid decimal precision rejected
+PASS: Insufficient funds rejected
+PASS: Beneficiary add works
+PASS: Beneficiary remove works
+PASS: Unsaved other-customer destination rejected
+PASS: Own-account transfer succeeds
+PASS: Bill payment creates an authorized account debit
+PASS: Unknown biller rejected
+PASS: Card freeze persists
+PASS: Card unfreeze persists
+PASS: Daily debit limit update enforced
+PASS: Fixed deposit opens and debits balance
+PASS: Early FD closure returns principal
+PASS: Closed FD cannot be redeemed twice
+PASS: Cash request does not change balance before approval
+PASS: Teller approval credits cash request
+PASS: Decided request cannot execute again
+PASS: Cash withdrawal approval debits account
+PASS: Customer can cancel pending service request
+PASS: Teller can reject service request with note
+PASS: Approved replacement updates card reference
+PASS: Loan approval creates principal and credits account
+PASS: Partial loan repayment reduces principal
+PASS: Loan overpayment rejected
+PASS: Loan full repayment closes loan
+PASS: Account freeze blocks banking update
+PASS: Customer statement exports CSV
+PASS: Customer cannot export another account statement
+PASS: Invalid statement date interval rejected
+PASS: Profile update persists
+PASS: Public registration creates a pending-KYC zero-balance account
+PASS: Pending KYC customer cannot transact
+PASS: Teller can verify customer KYC
+PASS: Verified customer can submit service request
+PASS: Admin suspension invalidates existing session
+PASS: Wrong current password prevents password change
+PASS: Password change invalidates old session
+PASS: New password authenticates successfully
+PASS: Logout invalidates session
+PASS: Concurrent conflicting debits: exactly one succeeds
+PASS: Concurrent debit preserves nonnegative correct balance
+PASS: Audit trail includes attributed decisions and transfers
+PASS: All three persisted state fingerprints agree
+PASS: Admin stops actual leader process
+PASS: Bully-style failover elects Node 2
+PASS: Customer transaction continues after controlled failover
+PASS: Restarted node catches up and rejoins with matching state
+PASS: Recovery events show synchronization
+PASS: Lone node refuses new banking writes
+PASS: Console prevents stopping final node
+PASS: Balances, requests, deposits and loans survive complete restart
+PASS: Stored idempotency survives full restart
+PASS: Login attempt throttling activates
+
+72 integration checks passed. Temporary test storage only.

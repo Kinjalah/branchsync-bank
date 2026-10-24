@@ -1,0 +1,8 @@
+PASS: Matured deposit returns principal plus original-term simple interest
+PASS: Matured deposit records closure and a receipt transaction
+PASS: Early deposit redemption has no unearned interest
+PASS: Domain layer independently enforces administrator authorization
+PASS: Domain amount parser rejects fractional paise
+PASS: Domain amount parser rejects negative amounts
+
+6 domain checks passed.

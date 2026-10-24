@@ -1,0 +1,23 @@
+PASS: Customer sign-in template
+PASS: Account registration template
+PASS: Customer overview
+PASS: Customer transfer
+PASS: Customer payments
+PASS: Customer cards
+PASS: Customer savings
+PASS: Customer loans
+PASS: Customer statements
+PASS: Customer services
+PASS: Customer settings
+PASS: Administrator workbench
+PASS: Administrator customers
+PASS: Administrator requests
+PASS: Administrator statements
+PASS: Administrator audit
+PASS: Administrator operations
+PASS: Administrator settings
+PASS: Teller navigation excludes DCS controls
+PASS: Customer-controlled text is escaped
+PASS: Transaction receipt template
+
+21 template checks passed. Browser layout and interactions still require a browser environment.
